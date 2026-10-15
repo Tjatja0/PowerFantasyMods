@@ -288,12 +288,8 @@ public class Plugin : BaseUnityPlugin
     {
         Level temp = _levelToLoad;
         int oldLimit = temp.fillerLimit;
-        Console.WriteLine("oldLimit : " + oldLimit);
-        Console.WriteLine("OptionEnemyMultiplier : " + OptionEnemyMultiplier);
         int sliderValue = oldLimit * (int)OptionEnemyMultiplier;
-        Console.WriteLine("sliderValue after int.parse : " + sliderValue);
         temp.fillerLimit = sliderValue;
-        Console.WriteLine("Value converted : " + temp.fillerLimit);
         SpawnManager.Instance.IncreaseFillerLimit(temp.fillerLimit-oldLimit);
         return true;
     }
