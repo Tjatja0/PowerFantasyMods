@@ -1,7 +1,7 @@
 # PowerFantasyMods
 
 <h1>Requirements:</h1>
-
+<br />
 <h2>BepInEx 6.0.0.be.755:</h2>
 Link to site:<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b><br />
@@ -11,7 +11,7 @@ Direct Download Link:<br />
 Unzip:<br />
 <b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
 into:<br />
-<b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\</i></b>
+<b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\</i></b><br />
 <br />
 this folder will now contain:<br />
 <i>BepInEx<br />
@@ -25,25 +25,25 @@ Power Fantasy.exe<br />
 UnityCrashHandler64.exe<br />
 unityPlayer.dll<br />
 winhttp.dll</i><br />
-<br />
+<br /><br />
 <h3>Non-Windows platform only:</h3>
-<i></i>You'll have to tell emulation layer to use the winhttp.dll by setting a command line parameter.
-In Steam, open the game's properties, and put the following text into the launch properties:
+<i></i>You'll have to tell emulation layer to use the winhttp.dll by setting a command line parameter.<br />
+In Steam, open the game's properties, and put the following text into the launch properties:<br />
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%</i>
 <h3>End of Non-Windows platform only.</h3>
-<br />
+<br /><br />
 Initialize BepInEx
-<br />
-Start the game, wait for the main menu, quit the game.
-<br />
-find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.
-Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace it with  <b><i>HideManagerGameObject = true</i></b>
-<br />
+<br /><br />
+Start the game, wait for the main menu, quit the game.<br />
+<br /><br />
+find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.<br />
+Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace it with  <b><i>HideManagerGameObject = true</i></b><br />
+<br /><br />
 You are now ready to add mods:<br />
 Unrar the file downloaded:<br />
-<b><i> Tjatja - Monster Spawn Rate.rar </i></b>
+<b><i> Tjatja - Monster Spawn Rate.rar </i></b><br />
 into:<br />
-<b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\ </i></b>
+<b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\ </i></b><br />
 Make sure to include the folder from the .rar!<br />
 
 <h3>Something to take note off:</h3>
