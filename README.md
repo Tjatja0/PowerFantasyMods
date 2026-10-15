@@ -2,27 +2,27 @@
 
 <h1>Requirements:</h1>
 
-<h2>BepInEx 6.0.0.be.755:</h2><br />
+<h2>BepInEx 6.0.0.be.755:</h2>
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b><br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
 
-Unzip:
-<b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b>
-into:
+Unzip:<br />
+<b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
+into:<br />
 <b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\</i></b>
 
-this folder will now contain:
-<i>BepInEx
-D3D12
-MonoBleedingEdge
-Power Fantasy_Data
-.doorstop_version
-changelog.txt
-doorstop_config.ini
-Power Fantasy.exe
-UnityCrashHandler64.exe
-unityPlayer.dll
-winhttp.dll</i>
+this folder will now contain:<br />
+<i>BepInEx<br />
+D3D12<br />
+MonoBleedingEdge<br />
+Power Fantasy_Data<br />
+.doorstop_version<br />
+changelog.txt<br />
+doorstop_config.ini<br />
+Power Fantasy.exe<br />
+UnityCrashHandler64.exe<br />
+unityPlayer.dll<br />
+winhttp.dll</i><br />
 
 <h3>Non-Windows platform only:</h3>
 <i></i>You'll have to tell emulation layer to use the winhttp.dll by setting a command line parameter.
