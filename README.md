@@ -1,5 +1,4 @@
 # PowerFantasyMods
-Power Fantasy Mods
 
 <h1>Requirements:</h1>
 
