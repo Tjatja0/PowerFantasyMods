@@ -39,9 +39,9 @@ Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace 
 
 You are now ready to add mods:
 Unrar the file downloaded:
-<b><i>Tjatja - Monster Spawn Rate.rar</i></b>
+<b><i> Tjatja - Monster Spawn Rate.rar </i></b>
 into:
-<b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\</i></b>
+<b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\ </i></b>
 Make sure to include the folder from the .rar!
 
 Done
