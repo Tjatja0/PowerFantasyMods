@@ -1,20 +1,19 @@
 # PowerFantasyMods
 Power Fantasy Mods
 
-Requirements:
+<h1>Requirements:</h1>
 
-BepInEx 6.0.0.be.755:
-
-https://builds.bepinex.dev/projects/bepinex_be/
-https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip
+<h2>BepInEx 6.0.0.be.755:</h2>
+<b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b>
+<b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b>
 
 Unzip:
-BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip
+<b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b>
 into:
-C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\
+<b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\</i></b>
 
 this folder will now contain:
-BepInEx
+<i>BepInEx
 D3D12
 MonoBleedingEdge
 Power Fantasy_Data
@@ -24,31 +23,31 @@ doorstop_config.ini
 Power Fantasy.exe
 UnityCrashHandler64.exe
 unityPlayer.dll
-winhttp.dll
+winhttp.dll</i>
 
-Non-Windows platform only:
-You'll have to tell emulation layer to use the winhttp.dll by setting a command line parameter.
+<h3>Non-Windows platform only:</h3>
+<i></i>You'll have to tell emulation layer to use the winhttp.dll by setting a command line parameter.
 In Steam, open the game's properties, and put the following text into the launch properties:
-WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
-End of Non-Windows platform only.
+WINEDLLOVERRIDES="winhttp.dll=n,b" %command%</i>
+<h3>End of Non-Windows platform only.</h3>
 
 Initialize BepInEx
 
 Start the game, wait for the main menu, quit the game.
 
-find BepInEx\config\BepInEx.cfg file. Open it with a text editor such as Notepad.
+find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.
 Find the line that says HideManagerGameObject = false and replace it with HideManagerGameObject = true
 
 You are now ready to add mods:
 Unrar the file downloaded:
-Tjatja - Monster Spawn Rate.rar
+<b><i>Tjatja - Monster Spawn Rate.rar</i></b>
 into:
-C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\
+<b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\</i></b>
 Make sure to include the folder from the .rar!
 
 Done
 
-Something to take note off:
+<h3>Something to take note off:</h3>
 Achievements and highscores are turned off while running this mod.
 
 Launch the game. Enjoy the mod.
