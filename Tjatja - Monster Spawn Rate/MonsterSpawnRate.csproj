@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<AssemblyName>MonsterSpawnRate</AssemblyName>
+		<Description>Monster Spawn Rate</Description>
+		<Version>1.0.0</Version>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>latest</LangVersion>
+		<RestoreAdditionalProjectSources>
+			https://api.nuget.org/v3/index.json;
+			https://nuget.bepinex.dev/v3/index.json;
+			https://nuget.samboy.dev/v3/index.json
+		</RestoreAdditionalProjectSources>
+		<RootNamespace>MonsterSpawnRate</RootNamespace>
+	</PropertyGroup>
+
+	<Import Project="$(SolutionDir)\solution_private.targets" />
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(GameManaged)\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			<HintPath>$(GameManaged)\unityengine.ui.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputSystem">
+			<HintPath>$(GameManaged)\Unity.InputSystem.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+			<HintPath>$(GameManaged)\unity.textmeshpro.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<Target Name="CopyDLLs" AfterTargets="Build">
+		<Copy SourceFiles="$(TargetDir)$(AssemblyName).dll" DestinationFolder="$(Destination)" />
+		<Copy SourceFiles="$(TargetDir)$(AssemblyName).dll" DestinationFolder="$(TargetDir)\$(AssemblyName)\$(AuthorName) - $(Description)" />
+		<ZipDirectory SourceDirectory="$(TargetDir)\$(AssemblyName)" DestinationFile="$(OutputPath)\..\..\..\..\$(AuthorName)-$(AssemblyName).zip" Overwrite="true" />
+
+	</Target>
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+		<PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="BepInEx.Unity.Mono" Version="6.0.0-be.*" IncludeAssets="compile" />
+		<PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+		<PackageReference Include="UnityEngine.Modules" Version="6000.3.5" IncludeAssets="compile" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+	</ItemGroup>
+</Project>
