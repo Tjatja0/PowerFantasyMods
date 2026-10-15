@@ -3,9 +3,9 @@ Power Fantasy Mods
 
 <h1>Requirements:</h1>
 
-<h2>BepInEx 6.0.0.be.755:</h2>
-<b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b>
-<b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b>
+<h2>BepInEx 6.0.0.be.755:</h2><br />
+<b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b><br />
+<b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
 
 Unzip:
 <b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b>
