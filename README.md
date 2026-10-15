@@ -3,7 +3,9 @@
 <h1>Requirements:</h1>
 
 <h2>BepInEx 6.0.0.be.755:</h2>
+Link to site:<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b><br />
+Direct Download Link:<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
 
 Unzip:<br />
