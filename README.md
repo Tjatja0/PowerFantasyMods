@@ -35,7 +35,7 @@ Initialize BepInEx
 Start the game, wait for the main menu, quit the game.
 
 find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.
-Find the line that says HideManagerGameObject = false and replace it with HideManagerGameObject = true
+Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace it with  <b><i>HideManagerGameObject = true</i></b>
 
 You are now ready to add mods:
 Unrar the file downloaded:
