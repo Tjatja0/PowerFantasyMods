@@ -48,5 +48,5 @@ Done
 
 <h3>Something to take note off:</h3>
 Achievements and highscores are turned off while running this mod.
-
-Launch the game. Enjoy the mod.
+<br /><br />
+<h3>Launch the game. Enjoy the mod.</h3>
