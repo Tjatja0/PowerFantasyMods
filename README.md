@@ -45,7 +45,10 @@ Unrar the file downloaded:<br />
 into:<br />
 <b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\ </i></b><br />
 Make sure to include the folder from the .rar!<br />
-
+<br />
+This mods adds 2 sliders to the general menu to control the values with<br />
+The values only apply on stage start, not during stages.<br />
+<br />
 <h3>Something to take note off:</h3>
 Achievements and highscores are turned off while running this mod.
 <br /><br />
