@@ -41,6 +41,8 @@ Highly likely you downloaded the file for the wrong system:<br />
 Restart the entire guide, this time use the other download link.<br />
 <br />
 <h3>You are now ready to add mods:</h3>
+Download the .rar file from:<br />
+<b><i> https://github.com/Tjatja0/PowerFantasyMods/releases/tag/Main_Branch </i></b><br />
 Unrar the file downloaded:<br />
 <b><i> Tjatja - Monster Spawn Rate.rar </i></b><br />
 into:<br />
