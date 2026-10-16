@@ -39,6 +39,16 @@ Start the game, wait for the main menu, quit the game.<br />
 <br /><br />
 find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.<br />
 Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace it with  <b><i>HideManagerGameObject = true</i></b><br />
+<br />
+HideManagerGameObject not found in the file? <br />
+continue on.<br />
+<br />
+BepInEx.cfg not found in the file?<br />
+Delete contents of:
+<b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\ </i></b><br />
+Go to steam> Power Fantasy>Manage>Properties>Installed files<br />
+Verify integrity of game files<br />
+Go back to the first step, and download the correct file for the type of windows that you have.<br />
 <br /><br />
 <h3>You are now ready to add mods:</h3>
 Unrar the file downloaded:<br />
