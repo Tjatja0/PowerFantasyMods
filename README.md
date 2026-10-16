@@ -1,7 +1,5 @@
 # PowerFantasyMods
-
 <h1>Requirements:</h1>
-<br />
 <h2>BepInEx 6.0.0.be.755:</h2>
 Link to site:<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b><br />
@@ -27,29 +25,23 @@ Power Fantasy.exe<br />
 UnityCrashHandler64.exe<br />
 unityPlayer.dll<br />
 winhttp.dll</i><br />
-<br /><br />
 <h3>Non-Windows platform only:</h3>
 <i></i>You'll have to tell emulation layer to use the winhttp.dll by setting a command line parameter.<br />
 In Steam, open the game's properties, and put the following text into the launch properties:<br />
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%</i>
 <h3>End of Non-Windows platform only.</h3>
-<br /><br />
 <h3>Initialize BepInEx</h3>
 Start the game, wait for the main menu, quit the game.<br />
-<br /><br />
-find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.<br />
-Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace it with  <b><i>HideManagerGameObject = true</i></b><br />
 <br />
-HideManagerGameObject not found in the file? <br />
-continue on.<br />
-<br />
+find the <b><i>BepInEx\config\BepInEx.cfg</i></b> file.<br />
 BepInEx.cfg not found?<br />
-Delete contents of:
+Delete contents of:<br />
 <b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\ </i></b><br />
-Go to steam> Power Fantasy>Manage>Properties>Installed files<br />
-Verify integrity of game files<br />
-Go back to the first step, and download the correct file for the type of windows that you have.<br />
-<br /><br />
+Go to: Steam>Power Fantasy>Manage>Properties>Installed files<br />
+<b><i>Verify integrity of game files</i></b><br />
+Highly likely you downloaded the file for the wrong system:<br />
+Restart the entire guide, this time use the other download link.<br />
+<br />
 <h3>You are now ready to add mods:</h3>
 Unrar the file downloaded:<br />
 <b><i> Tjatja - Monster Spawn Rate.rar </i></b><br />
@@ -57,16 +49,14 @@ into:<br />
 <b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\ </i></b><br />
 Make sure to include the folder from the .rar!<br />
 <br />
-<b><i> Tjatja - Monster Spawn Rate.rar </i></b><br />
+<h3>Tjatja - Monster Spawn Rate.rar </h3>
 This mods adds 2 sliders to the general menu to control its settings with<br />
 The settings only apply on stage start, not during stages.<br />
-<br />
-<h3>Something to take note off:</h3>
+<h4>Something to take note off:</h4>
 Achievements and highscores are turned off while running this mod.
 <br /><br />
 <h3>Launch the game. Enjoy the mod.</h3>
-<br /><br />
-<br /><br />
+<br />
 <h3>To turn off the mod:</h3>
 Go to: <br />
 C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\config\<br />
