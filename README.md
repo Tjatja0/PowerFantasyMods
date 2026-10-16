@@ -43,7 +43,7 @@ Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace 
 HideManagerGameObject not found in the file? <br />
 continue on.<br />
 <br />
-BepInEx.cfg not found in the file?<br />
+BepInEx.cfg not found?<br />
 Delete contents of:
 <b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\ </i></b><br />
 Go to steam> Power Fantasy>Manage>Properties>Installed files<br />
