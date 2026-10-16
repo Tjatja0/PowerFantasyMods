@@ -54,7 +54,7 @@ Achievements and highscores are turned off while running this mod.
 <h3>Launch the game. Enjoy the mod.</h3>
 <br /><br />
 <br /><br />
-To turn off the mod:<br />
+<h3>To turn off the mod:</h3><br />
 Go to: <br />
 C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\config\<br />
 open:<br />
