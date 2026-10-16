@@ -5,8 +5,10 @@
 <h2>BepInEx 6.0.0.be.755:</h2>
 Link to site:<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/</i></b><br />
-Direct Download Link:<br />
+Direct Download Link:x86 systems<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
+Direct Download Link:x64 systems<br />
+<b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x64-6.0.0-be.755%2B3fab71a.zip</i></b><br />
 <br />
 Unzip:<br />
 <b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
