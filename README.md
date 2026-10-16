@@ -32,8 +32,7 @@ In Steam, open the game's properties, and put the following text into the launch
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%</i>
 <h3>End of Non-Windows platform only.</h3>
 <br /><br />
-Initialize BepInEx
-<br /><br />
+<b><i>Initialize BepInEx:</i></b><br />
 Start the game, wait for the main menu, quit the game.<br />
 <br /><br />
 find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.<br />
