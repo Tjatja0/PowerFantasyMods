@@ -8,9 +8,7 @@ Direct Download Link:x86 systems<br />
 Direct Download Link:x64 systems<br />
 <b><i>https://builds.bepinex.dev/projects/bepinex_be/755/BepInEx-Unity.Mono-win-x64-6.0.0-be.755%2B3fab71a.zip</i></b><br />
 <br />
-Unzip:<br />
-<b><i>BepInEx-Unity.Mono-win-x86-6.0.0-be.755%2B3fab71a.zip</i></b><br />
-into:<br />
+Unzip the file you downloaded from the link above into:<br />
 <b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\</i></b><br />
 <br />
 this folder will now contain:<br />
