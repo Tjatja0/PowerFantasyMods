@@ -32,13 +32,13 @@ In Steam, open the game's properties, and put the following text into the launch
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%</i>
 <h3>End of Non-Windows platform only.</h3>
 <br /><br />
-<b><i>Initialize BepInEx:</i></b><br />
+<h3>Initialize BepInEx</h3>
 Start the game, wait for the main menu, quit the game.<br />
 <br /><br />
 find <b><i>BepInEx\config\BepInEx.cfg</i></b> file. Open it with a text editor such as Notepad.<br />
 Find the line that says <b><i>HideManagerGameObject = false</i></b> and replace it with  <b><i>HideManagerGameObject = true</i></b><br />
 <br /><br />
-You are now ready to add mods:<br />
+<h3>You are now ready to add mods:</h3>
 Unrar the file downloaded:<br />
 <b><i> Tjatja - Monster Spawn Rate.rar </i></b><br />
 into:<br />
