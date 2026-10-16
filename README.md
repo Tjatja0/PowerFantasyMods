@@ -52,3 +52,11 @@ The values only apply on stage start, not during stages.<br />
 Achievements and highscores are turned off while running this mod.
 <br /><br />
 <h3>Launch the game. Enjoy the mod.</h3>
+<br /><br />
+<br /><br />
+To turn off the mod:<br />
+Go to: <br />
+C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\config\<br />
+open:<br />
+Tjatja.powerfantasymods.MonsterSpawnRate.cfg<br />
+Set Enabled to false. 
