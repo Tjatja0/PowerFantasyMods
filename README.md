@@ -59,7 +59,7 @@ Achievements and highscores are turned off while running this mod.
 <br />
 <h3>To turn off the mod:</h3>
 Go to: <br />
-C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\config\<br />
+<b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\config\ </i></b><br />
 open:<br />
-Tjatja.powerfantasymods.MonsterSpawnRate.cfg<br />
-Set Enabled to false. 
+<b><i>Tjatja.powerfantasymods.MonsterSpawnRate.cfg</i></b><br />
+Set <b><i>Enabled</i></b> to <b><i>false</i></b>
