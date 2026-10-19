@@ -26,8 +26,8 @@ public class Plugin : BaseUnityPlugin
 {
     static ConfigEntry<bool> modEnabled;
     internal static new ManualLogSource Logger;
-    static float OptionEnemySpawnRate = 0.1f;
-    static float OptionEnemyMultiplier = 0.1f;
+    static float OptionEnemySpawnRate = 0f;
+    static float OptionEnemyMultiplier = 0f;
     static Slider SliderEnemySpawnRate;
     static Slider SliderEnemyMultiplier;
     static Text TextEnemySpawnRate;
@@ -127,7 +127,7 @@ public class Plugin : BaseUnityPlugin
             Text CustomText = GamOptionCompanionClone.GetComponentInChildren<Text>();
             TextEnemySpawnRate = CustomText;
             CustomText.text = "Spawn Multiplier:";
-            CustomSlide.value = 0.1f;
+            CustomSlide.value = 0f;
             GamOptionCompanionClone.SetActive(true);
 
 
@@ -143,7 +143,7 @@ public class Plugin : BaseUnityPlugin
             Text CustomText1 = GamOptionCompanionClone1.GetComponentInChildren<Text>();
             TextEnemyMultiplier = CustomText1;
             CustomText1.text = "Monster Multiplier:";
-            CustomSlide1.value = 0.1f;
+            CustomSlide1.value = 0f;
             GamOptionCompanionClone1.SetActive(true);
 
             Canvas.ForceUpdateCanvases();
