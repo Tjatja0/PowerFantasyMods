@@ -41,7 +41,7 @@ public class Plugin : BaseUnityPlugin
     static List<GameObject> CurrentMonPool = new List<GameObject>();
     static List<GameObject> ControllerButtons = new List<GameObject>();
     static bool inUse = false;
-    static String inputs = "Xbox";
+    static String inputs = "Keyboard";
 
     private void Awake()
     {
