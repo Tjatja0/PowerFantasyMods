@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
 using BepInEx.Unity.Mono;
@@ -41,6 +41,7 @@ public class Plugin : BaseUnityPlugin
     static List<GameObject> CurrentMonPool = new List<GameObject>();
     static List<GameObject> ControllerButtons = new List<GameObject>();
     static bool inUse = false;
+    static String inputs = "Xbox";
 
     private void Awake()
     {
@@ -434,6 +435,43 @@ public class Plugin : BaseUnityPlugin
         }
         return true;//don't skip the function
     }
+    
+    [HarmonyPrefix]//right trigger/space
+    [HarmonyPatch(typeof(PlayerController), "OnRB")]
+    public static bool PlayerController_OnRB(InputValue value)
+    {
+        if (inUse)
+        {
+            if (value.isPressed)
+            {
+                switch (AreaSelector)
+                {
+                    case 1:
+                        LoadArea("orc kingdom");
+                        break;
+                    case 2:
+                        LoadArea("forgotten crypt");
+                        break;
+                    case 3:
+                        LoadArea("hell");
+                        break;
+                    case 4:
+                        LoadArea("Bosses");
+                        break;
+                    case 5:
+                        LoadArea("corrupted forest");
+                        break;
+                }
+                AreaSelector++;
+                if (AreaSelector > 5)
+                {
+                    AreaSelector = 1;
+                }
+            }
+            return false;//skip the function
+        }
+        return true;//don't skip the function
+    }
     [HarmonyPrefix]//right trigger/space
     [HarmonyPatch(typeof(PlayerController), "OnDash")]
     public static bool PlayerController_OnDash(InputValue value)
@@ -473,6 +511,42 @@ public class Plugin : BaseUnityPlugin
     [HarmonyPrefix]//lefttrigger/right mouse button
     [HarmonyPatch(typeof(PlayerController), "OnToggleAutoAttack")]
     public static bool PlayerController_OnToggleAutoAttack(InputValue value)
+    {
+        if (inUse)
+        {
+            if (value.isPressed)
+            {
+                switch (AreaSelector)
+                {
+                    case 1:
+                        LoadArea("Bosses");
+                        break;
+                    case 2:
+                        LoadArea("corrupted forest");
+                        break;
+                    case 3:
+                        LoadArea("orc kingdom");
+                        break;
+                    case 4:
+                        LoadArea("forgotten crypt");
+                        break;
+                    case 5:
+                        LoadArea("hell");
+                        break;
+                }
+                AreaSelector--;
+                if (AreaSelector < 1)
+                {
+                    AreaSelector = 5;
+                }
+            }
+            return false;//skip the function
+        }
+        return true;//don't skip the function
+    }
+    [HarmonyPrefix]//lefttrigger/right mouse button
+    [HarmonyPatch(typeof(PlayerController), "OnLB")]
+    public static bool PlayerController_OnLB(InputValue value)
     {
         if (inUse)
         {
@@ -953,6 +1027,10 @@ public class Plugin : BaseUnityPlugin
                 button5.onClick.AddListener(new UnityAction(() => LoadArea("Bosses")));
                 Button5TitleText.transform.SetParent(MainPanel.transform);
 
+                if (inputs == "Xbox")
+                {
+                    DrawControllerButtons();
+                }
                 LoadArea("corrupted forest");
                 return false;//skip the function
             }
