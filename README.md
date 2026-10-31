@@ -66,4 +66,6 @@ Go to: <br />
 <b><i>C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\config\ </i></b><br />
 open:<br />
 <b><i>Tjatja.powerfantasymods.MonsterSpawnRate.cfg</i></b><br />
+or<br />
+<b><i>Tjatja.powerfantasymods.Beastiary.cfg</i></b><br />
 Set <b><i>Enabled</i></b> to <b><i>false</i></b>
