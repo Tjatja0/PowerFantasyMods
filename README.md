@@ -45,6 +45,7 @@ Download the .rar file from:<br />
 <b><i> https://github.com/Tjatja0/PowerFantasyMods/releases/tag/Main_Branch </i></b><br />
 Unrar the file downloaded:<br />
 <b><i> Tjatja - Monster Spawn Rate.rar </i></b><br />
+<b><i> Tjatja - Beastiary.rar </i></b><br />
 into:<br />
 <b><i> C:\Program Files (x86)\Steam\steamapps\common\Power Fantasy\BepInEx\plugins\ </i></b><br />
 Make sure to include the folder from the .rar!<br />
@@ -54,6 +55,9 @@ This mods adds 2 sliders to the general menu to control its settings with<br />
 The settings only apply on stage start, not during stages.<br />
 <h4>Something to take note off:</h4>
 Achievements and highscores are turned off while running this mod.
+<br /><br />
+<h3>Tjatja - Beastiary.rar </h3>
+This mods adds a new statue in Camp to check in-game monsters with.<br />
 <br /><br />
 <h3>Launch the game. Enjoy the mod.</h3>
 <br />
