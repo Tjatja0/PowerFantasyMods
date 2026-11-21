@@ -30,14 +30,12 @@ public class Plugin : BaseUnityPlugin
     static ConfigEntry<bool> modEnabled;
     internal static new ManualLogSource Logger;
     static GameObject ActiveCurses, AsteroidsHolder, BladeTrapsHolder, ObserversHolder, AmbusterHolder, SniperHolder, WormsHolder, SerpentsHolder;
-    //static GameObject buffIndicatorUI;
     static Slider buffTimer;
     static int buffCounter;
     static VisualCurseCounter VSC;
 
     private void Awake()
     {
-        // Plugin startup logic
         modEnabled = Config.Bind("General", "Enabled", true, "Is the mod enabled?");
         Logger = base.Logger;
         Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
