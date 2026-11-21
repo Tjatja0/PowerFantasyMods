@@ -72,4 +72,6 @@ open:<br />
 <b><i>Tjatja.powerfantasymods.MonsterSpawnRate.cfg</i></b><br />
 or<br />
 <b><i>Tjatja.powerfantasymods.Beastiary.cfg</i></b><br />
+or<br />
+<b><i>Tjatja.powerfantasymods.CurseIndicators.cfg</i></b><br />
 Set <b><i>Enabled</i></b> to <b><i>false</i></b>
