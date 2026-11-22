@@ -77,7 +77,18 @@ public class Plugin : BaseUnityPlugin
         }
         if (ActiveBuffs != null)
         {
+            if(ActiveCurses != null)
+            {
+                Destroy(ActiveCurses);
+            }
             ActiveCurses = Instantiate(ActiveBuffs, new Vector3(Screen.width - ActiveBuffs.transform.position.x ,ActiveBuffs.transform.position.y, ActiveBuffs.transform.position.z) , new Quaternion()) as GameObject;
+            foreach (RectTransform rt in ActiveCurses.GetComponentsInChildren<RectTransform>())
+            {
+                if (rt.gameObject != ActiveCurses)
+                {
+                    Destroy(rt.gameObject);
+                }
+            }
             RectTransform ActiveRect = ActiveCurses.GetComponent<RectTransform>();
             ActiveRect.anchorMin = new Vector2(1, 1);
             ActiveRect.anchorMax = new Vector2(1, 1);
@@ -455,7 +466,6 @@ public class Plugin : BaseUnityPlugin
             if (transform != null && transform.TryGetComponent<Text>(out var component))
             {
                 component.text = name.ToUpper();
-                component.fontStyle = FontStyle.Bold;
             }
 
             ActiveCurses.GetComponent<GridLayoutGroup>().CalculateLayoutInputHorizontal();
